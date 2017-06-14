@@ -1,6 +1,7 @@
 import cv2
 import sys
-#from OSC import OSCClient, OSCMessage
+import serial
+from OSC import OSCClient, OSCMessage
 
 # remap value fuction
 def remap( x, oMin, oMax, nMin, nMax ):
@@ -38,6 +39,9 @@ def remap( x, oMin, oMax, nMin, nMax ):
 
     return result
 
+
+
+
 #cascPath = sys.argv[0]
 #print cascPath
 cascPath = "haarcascade_frontalface_default.xml"
@@ -47,9 +51,15 @@ faceCascade = cv2.CascadeClassifier(cascPath)
 video_capture = cv2.VideoCapture(0)
 
 #init OSC object
-#client = OSCClient()
-#client.connect( ("localhost", 4343) )
+"""
+client = OSCClient()
+client.connect( ("localhost", 4343) )
 
+"""
+#init serial conmunication
+"""
+ser = serial.Serial('YOUR SERIAL PORT', 9600)
+"""
 
 while True:
     # Capture frame-by-frame
@@ -76,8 +86,14 @@ while True:
         print ("x: %.2f y:%.2f" % (final_x, final_y)) 
         
         # OSC send
-        #client.send( OSCMessage("/coord/1", [final_x, final_y] ) )
+        """
+        client.send( OSCMessage("/coord/1", [final_x, final_y] ) )
 
+        """
+        # serial <> arduino
+        """
+        ser.write([final_x, final_y])
+        """
 
     # Display the resulting frame
     cv2.imshow('Video', frame)
