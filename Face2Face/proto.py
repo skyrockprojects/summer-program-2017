@@ -57,9 +57,9 @@ client.connect( ("localhost", 4343) )
 
 """
 #init serial conmunication
-"""
-ser = serial.Serial('YOUR SERIAL PORT', 9600)
-"""
+
+ser = serial.Serial('/dev/cu.usbmodem1421', 9600)
+
 
 while True:
     # Capture frame-by-frame
@@ -70,7 +70,7 @@ while True:
     faces = faceCascade.detectMultiScale(
         gray,
         scaleFactor=1.1,
-        minNeighbors=5,
+        minNeighbors=10,
         minSize=(30, 30),
         flags=cv2.cv.CV_HAAR_SCALE_IMAGE
     )
@@ -91,9 +91,8 @@ while True:
 
         """
         # serial <> arduino
-        """
-        ser.write([final_x, final_y])
-        """
+        
+        ser.write(b'%.2f,%.2f,' % (final_x, final_y))
 
     # Display the resulting frame
     cv2.imshow('Video', frame)
