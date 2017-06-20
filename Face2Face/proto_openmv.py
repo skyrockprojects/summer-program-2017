@@ -13,9 +13,10 @@ sensor.set_gainceiling(16)
 # HQVGA and GRAYSCALE are the best for face tracking.
 sensor.set_framesize(sensor.HQVGA)
 sensor.set_pixformat(sensor.GRAYSCALE)
-sensor.__write_reg(0x0C, sensor.__read_reg(0x0C) | (1 << 7)) #Flips Camera
+#sensor.__write_reg(0x0C, sensor.__read_reg(0x0C) | (1 << 7)) #Flips Camera
 
-s1 = Servo(1) # servo on position 1 (PB15, VIN, GND)
+s1 = Servo(1) # servo on position 1 (PD12, VIN, GND)
+s2 = Servo(2) # servo on position 1 (PD13, VIN, GND)
 
 
 # Load Haar Cascade
@@ -63,6 +64,7 @@ while (True):
         img.draw_line((c[0]-l,  c[1],  c[0]+l, c[1]))
         img.draw_line((c[0],  c[1]-l,  c[0], c[1]+l))
         s1.angle(c[0], 500)
+        s2.angle(c[0], 500)
         time.sleep(20)
     print (clock.fps())
 

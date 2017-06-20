@@ -128,7 +128,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 391.0, 554.0, 20.0 ],
+					"patching_rect" : [ 41.0, 336.0, 554.0, 20.0 ],
 					"style" : "",
 					"text" : "Arduino <-> Max Serial communicate"
 				}
@@ -142,7 +142,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.0, 507.0, 158.0, 141.0 ],
+					"patching_rect" : [ 377.0, 452.0, 158.0, 141.0 ],
 					"style" : "",
 					"text" : "// Exampe Arduino code:\n\nvoid setup() {\nSerial.begin(9600);\n}\n\nvoid loop() {\nSerial.write(random(0,9));\ndelay(400);\n}"
 				}
@@ -157,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 417.0, 554.0, 87.0 ],
+					"patching_rect" : [ 41.0, 362.0, 554.0, 87.0 ],
 					"style" : "",
 					"text" : "Trouble shooting:\nA) The message being sent to serial in max needs to be coming from a Serial.write command. Serial.println won't work.\nB) Arduino must be closed when running the Max patch, and/or the serial monitor needs to be closed in Arduino (Only one program can be accessing serial at a time).\nC) Only one Max \"serial\" object can be polling the serial at any given time (similarly to point B above)."
 				}
@@ -170,7 +170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.5, 707.0, 220.0, 20.0 ],
+					"patching_rect" : [ 136.5, 652.0, 220.0, 20.0 ],
 					"style" : "",
 					"text" : "Prints data from serial to this messsage"
 				}
@@ -183,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.5, 740.0, 213.0, 20.0 ],
+					"patching_rect" : [ 115.5, 685.0, 213.0, 20.0 ],
 					"style" : "",
 					"text" : "Prints data from serial to Max console"
 				}
@@ -196,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.5, 581.0, 242.0, 20.0 ],
+					"patching_rect" : [ 109.5, 526.0, 242.0, 20.0 ],
 					"style" : "",
 					"text" : "Rate at which the serial port is being polled"
 				}
@@ -209,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.5, 542.0, 186.0, 24.0 ],
+					"patching_rect" : [ 77.5, 487.0, 186.0, 24.0 ],
 					"style" : "",
 					"text" : "4) Start polling the serial port"
 				}
@@ -223,7 +223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.0, 655.5, 404.0, 37.0 ],
+					"patching_rect" : [ 131.0, 600.5, 404.0, 37.0 ],
 					"style" : "",
 					"text" : "2) Make sure the letter matches the port you want to poll\n3) Make sure the baud rate matches the baud rate in the Arduino patch"
 				}
@@ -237,7 +237,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.5, 611.0, 261.0, 37.0 ],
+					"patching_rect" : [ 109.5, 556.0, 261.0, 37.0 ],
 					"style" : "",
 					"text" : "1) Print to the Max console a list containing items attached to serial ports"
 				}
@@ -250,7 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.5, 617.0, 34.0, 22.0 ],
+					"patching_rect" : [ 67.5, 562.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "print"
 				}
@@ -262,7 +262,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 740.0, 57.0, 22.0 ],
+					"patching_rect" : [ 45.0, 685.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "print raw"
 				}
@@ -275,7 +275,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 707.0, 50.0, 22.0 ],
+					"patching_rect" : [ 74.0, 652.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "8"
 				}
@@ -288,7 +288,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 22.0, 663.0, 79.0, 22.0 ],
+					"patching_rect" : [ 45.0, 608.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "serial e 9600"
 				}
@@ -301,7 +301,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 22.0, 580.0, 58.0, 22.0 ],
+					"patching_rect" : [ 45.0, 525.0, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 50"
 				}
@@ -315,7 +315,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 22.0, 542.0, 24.0, 24.0 ],
+					"patching_rect" : [ 45.0, 487.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
