@@ -51,15 +51,15 @@ faceCascade = cv2.CascadeClassifier(cascPath)
 video_capture = cv2.VideoCapture(0)
 
 #init OSC object
-"""
+
 client = OSCClient()
 client.connect( ("localhost", 4343) )
 
-"""
+
 #init serial conmunication
-
+"""
 ser = serial.Serial('/dev/cu.usbmodem1421', 9600)
-
+"""
 
 while True:
     # Capture frame-by-frame
@@ -86,13 +86,14 @@ while True:
         print ("x: %.2f y:%.2f" % (final_x, final_y)) 
         
         # OSC send
-        """
+        
         client.send( OSCMessage("/coord/1", [final_x, final_y] ) )
 
-        """
-        # serial <> arduino
         
+        # serial <> arduino
+        """
         ser.write(b'%.2f,%.2f,' % (final_x, final_y))
+        """
 
     # Display the resulting frame
     cv2.imshow('Video', frame)
