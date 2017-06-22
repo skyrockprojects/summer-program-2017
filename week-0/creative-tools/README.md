@@ -1,0 +1,1 @@
+This is an introduction with examples of some of the "creative tools" we will be using in our projects. We call these "creative tools" because, in our physical computing projects, these are the programs we will send our physical data to for creative work. Please go to the wiki for the lesson details.  
