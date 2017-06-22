@@ -25,7 +25,7 @@ face_cascade = image.HaarCascade("frontalface", stages=15)
 
 # Default Pan/Tilt for the camera in degrees.
 # Camera range is from -90 to 90
-cam_pan = 90
+cam_pan = 60
 cam_tilt = 60
 
 # Turn the camera to the default position
@@ -103,8 +103,10 @@ while True:
        print(cam_pan, cam_tilt)
 
        #servo update
-       s1.angle(cam_tilt)
        s2.angle(cam_pan)
+       time.sleep(10)
+       s1.angle(cam_tilt)
+       time.sleep(10)
 
 
 
