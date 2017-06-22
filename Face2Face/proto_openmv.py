@@ -29,9 +29,10 @@ cam_pan = 90
 cam_tilt = 60
 
 # Turn the camera to the default position
+"""
 s1.angle(0,0)
-s2.angle(60-90)
-
+s2.angle(60-90,0)
+"""
 def remap( x, oMin, oMax, nMin, nMax ):
 
     #range check
