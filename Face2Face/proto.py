@@ -95,7 +95,7 @@ while True:
 
         # Convert to percentage offset
         turn_x  /= float(FRAME_W/2)
-        turn_y  /= float(FRAME_H/2)
+        turn_y  /= float(FRAME_H/2) 
         
         #print(turn_x, turn_y)
 
@@ -113,7 +113,6 @@ while True:
         # serial <> arduino
         
         ser.write(b'%.2f,%.2f' % (final_x, final_y))
-        
 
     # Display the resulting frame
     cv2.imshow('Video', frame)
