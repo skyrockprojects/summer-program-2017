@@ -9,3 +9,9 @@
 
 * #### Learn how to create interactive graphics and animations using p5.js: 
     * [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/wiki/Introduction-to-p5.js)
+    
+* #### Making Things Talk & Fundamental Physical Computing: 
+    * [Introduction to Arduino](https://github.com/skyrockprojects/summer-program-2017/wiki/Introduction-of-Arduino)
+    
+* #### ComputerVision & OpenCV: 
+    * [Introduction to OpenCV & Application for Face detection and Object tracking](https://github.com/skyrockprojects/summer-program-2017/wiki/OpenCV-FaceTracker)
