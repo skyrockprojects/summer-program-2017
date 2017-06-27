@@ -21,7 +21,7 @@
 
 #### Repos & Files
 * [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/)
-* [Introduction to Creative Tools (Max MSP](https://github.com/skyrockprojects/p5js-intro/)
+* [Introduction to Creative Tools (Max MSP)](https://github.com/skyrockprojects/intro-music-tech-programming/tree/master/01-intro-max-additive-synthesis)
 
 #### Wikis
 * [Fundamentals of Programming Using Blockly](https://github.com/skyrockprojects/summer-program-2017/wiki/Fundamentals-of-Programming-Using-Blockly)
