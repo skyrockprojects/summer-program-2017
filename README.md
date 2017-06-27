@@ -29,6 +29,8 @@
 * [Introduction to Arduino](https://github.com/skyrockprojects/summer-program-2017/wiki/Introduction-of-Arduino)
 * [Introduction to OpenCV & Application for Face detection and Object tracking](https://github.com/skyrockprojects/summer-program-2017/wiki/OpenCV-FaceTracker)
 
+---
+
 ### Week 2
 * Day 1
    * Opening Talk & Immersion: First Experiences with Human Physical Computing Models & Topics
@@ -52,6 +54,13 @@
 * Day 5
    * Students Demonstrate/Perform Projects and Give Constructive Feedback to Each Other 
    * Students Document Their Projects for Their Portfolio and Celebrate Their Completion (& Continuance!)
+
+#### Repos
+
+#### Wikis
+
+
+---
 
 ### Week 3
 * Day 1
@@ -77,6 +86,13 @@
    * Students Demonstrate/Perform Projects and Give Constructive Feedback to Each Other 
    * Students Document Their Projects for Their Portfolio and Celebrate Their Completion (& Continuance!)
 
+#### Repos
+
+#### Wikis
+
+
+---
+
 ### Week 4
 * Day 1
    * Opening Talk & Immersion: First Experiences with Physical Computing Models & Topics
@@ -100,5 +116,10 @@
 * Day 5
    * Students Demonstrate/Perform Projects and Give Constructive Feedback to Each Other
    * Students Document Their Projects for Their Portfolio and Celebrate Their Completion (& Continuance!)
+
+#### Repos
+
+#### Wikis
+
 
 
