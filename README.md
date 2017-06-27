@@ -19,14 +19,15 @@
    * Immersion to Various Creative Tools (Programming) to Creatively Use & Prototype Our Physical Computing Networks 
    * Student-led Focus on Particular Creative Tools (Multi-Instructor)
 
-#### Repos
-* [p5.js](https://github.com/skyrockprojects/p5js-intro/)
+#### Repos & Files
+* [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/)
+* [Introduction to Creative Tools (Max MSP](https://github.com/skyrockprojects/p5js-intro/)
 
 #### Wikis
 * [Fundamentals of Programming Using Blockly](https://github.com/skyrockprojects/summer-program-2017/wiki/Fundamentals-of-Programming-Using-Blockly)
 * [Introduction to Javascript](https://github.com/skyrockprojects/javascript-intro/wiki)
 * [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/wiki/Introduction-to-p5.js)    
-* [Introduction to Arduino](https://github.com/skyrockprojects/summer-program-2017/wiki/Introduction-to-Arduino)
+* [Introduction to Arduino](https://github.com/skyrockprojects/summer-program-2017/wiki/Introduction-of-Arduino)
 * [Introduction to OpenCV & Application for Face detection and Object tracking](https://github.com/skyrockprojects/summer-program-2017/wiki/OpenCV-FaceTracker)
 
 ---
