@@ -1,6 +1,6 @@
 ## Guide Map for Summer Program 2017
 
-### Week 1
+### PHYSICAL COMPUTING ESSENTIALS
 #### Schedule
 * Day 1
    * Opening Talk & Immersion: First Experiences with Physical Computing Models & Topics
@@ -32,7 +32,7 @@
 
 ---
 
-### Week 2
+### HUMAN-COMPUTER INTERACTIONS
 * Day 1
    * Opening Talk & Immersion: First Experiences with Human Physical Computing Models & Topics
    * Students Discuss & Propose Projects for Week
@@ -63,7 +63,7 @@
 
 ---
 
-### Week 3
+### SENSORS // CREATIVE ROBOTICS
 * Day 1
    * Opening Talk & Immersion: First Experiences with Object-Based Physical Computing Models & Topics
    * Hardware & Programming Focus: Physical Sensing via Objects/Materials, Bare Conductive/Arduino & Working with ServoMotors
@@ -94,7 +94,7 @@
 
 ---
 
-### Week 4
+### INTERACTIVITY IN PUBLIC ENVIRONMENTS
 * Day 1
    * Opening Talk & Immersion: First Experiences with Physical Computing Models & Topics
    * Hardware & Programming Focus: Remote Networking & Communications, Physical Sensing via Space & Spatial Elements, Computer Vision & Working with ServoMotors
