@@ -20,8 +20,8 @@
    * Student-led Focus on Particular Creative Tools (Multi-Instructor)
 
 #### Repos & Files
-* [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/)
-* [Introduction to Max MSP](https://github.com/skyrockprojects/intro-music-tech-programming)
+* [p5.js](https://github.com/skyrockprojects/p5js-intro/)
+* [Max MSP](https://github.com/skyrockprojects/intro-music-tech-programming)
 
 #### Wikis
 * [Fundamentals of Programming Using Blockly](https://github.com/skyrockprojects/summer-program-2017/wiki/Fundamentals-of-Programming-Using-Blockly)
@@ -29,6 +29,7 @@
 * [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/wiki/Introduction-to-p5.js)    
 * [Introduction to Arduino](https://github.com/skyrockprojects/summer-program-2017/wiki/Introduction-to-Arduino)
 * [Introduction to OpenCV & Applications for Face Detection and Object Tracking](https://github.com/skyrockprojects/summer-program-2017/wiki/OpenCV-FaceTracker)
+* [Introduction to Creative Tools (Combining Sensors/Arduino with Max MSP & p5.js)](https://github.com/skyrockprojects/summer-program-2017/wiki/Creative-Tools-(Combining-Sensors-Arduino,-CV,-p5.js-&-Max-MSP)
 
 ---
 
