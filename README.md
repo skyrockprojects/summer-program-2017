@@ -29,7 +29,7 @@
 * [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/wiki/Introduction-to-p5.js)    
 * [Introduction to Arduino](https://github.com/skyrockprojects/summer-program-2017/wiki/Introduction-to-Arduino)
 * [Introduction to OpenCV & Applications for Face Detection and Object Tracking](https://github.com/skyrockprojects/summer-program-2017/wiki/OpenCV-FaceTracker)
-* [Introduction to Creative Tools (Combining Sensors/Arduino with Max MSP & p5.js)](https://github.com/skyrockprojects/summer-program-2017/wiki/Creative-Tools-(Combining-Sensors-Arduino,-CV,-p5.js-&-Max-MSP)
+* [Introduction to Creative Tools (Combining Sensors/Arduino with Max MSP & p5.js)](https://github.com/skyrockprojects/summer-program-2017/wiki/Creative-Tools-(Combining-Sensors-Arduino,-CV,-p5.js-&-Max-MSP))
 
 ---
 
