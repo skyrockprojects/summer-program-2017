@@ -11,10 +11,10 @@
    * P5.js: Creative Coding, Libraries & Learning by Modifying, Combining & Crediting the Work of Others
 * Day 3
    * Students Create 1st Creative Program by Psuedocode Planning & Real Code Implementation
-   * Must-Know Architecture & DIY Approaches to Physical Computing
+   * Intro to Arduino & Physical Computing: MicroProcessors, Sensors & Circuits
 * Day 4
    * Students Create 1st Arduino-Interactive Program (Possibly Using Yesterday's P5.js Program)
-   * Must-Know Architecture & DIY Approaches to OSC Communications
+   * Real Circuitry & Soldering with Paperduino
 * Day 5
    * Immersion to Various Creative Tools (Programming) to Creatively Use & Prototype Our Physical Computing Networks 
    * Student-led Focus on Particular Creative Tools (Multi-Instructor)
