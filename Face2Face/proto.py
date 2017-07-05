@@ -1,6 +1,5 @@
-import cv2
-import sys
-import serial, time
+import cv2, sys, time
+import serial
 from OSC import OSCClient, OSCMessage
 
 # remap value fuction
