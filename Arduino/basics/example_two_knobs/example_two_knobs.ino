@@ -20,16 +20,25 @@ void loop() {
   sensorValue_b = analogRead(analogInPin_b);
   // map it to the range of the analog out:
   outputValue = map(sensorValue, 0, 1023, 0, 255);
-  outputValue_b = map(sensorValue, 0, 1023, 0, 255);
+  outputValue_b = map(sensorValue_b, 0, 1023, 0, 255);
   // change the analog out value:
-  analogWrite(analogOutPin, outputValue);
-
+  analogWrite(analogOutPin, outputValue_b);
+  
   // print the results to the serial monitor:
-  Serial.print("sensor = ");
-  Serial.print(sensorValue);
-  Serial.print("\t output = ");
-  Serial.println(outputValue);
+  //Serial.print("sensor = ");
+  //Serial.print(sensorValue);
+  //Serial.print("\t output = ");
+  //Serial.println(outputValue);
+/*
+  byte out[] = new byte[2];
+  out[0] = byte(outputValue)
+  out[1] = byte(outputValue_b)
+  Serial.write(out);
+  */
 
+  Serial.write(outputValue);
+  Serial.write(outputValue_b);
+  
   // wait 2 milliseconds before the next loop
   // for the analog-to-digital converter to settle
   // after the last reading:
