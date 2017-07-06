@@ -28,7 +28,7 @@
 * [Introduction to Javascript](https://github.com/skyrockprojects/javascript-intro/wiki)
 * [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/wiki/Introduction-to-p5.js)    
 * [Introduction to Arduino](https://github.com/skyrockprojects/summer-program-2017/wiki/Introduction-to-Arduino)
-* [Introduction to Creative Tools (Max MSP, p5.js, Sensors & Computer Vision ](https://github.com/skyrockprojects/summer-program-2017/wiki/Physical-Computing-Creative-Tools-(Max-MSP-&-p5.js-in-Combination-with-Sensors,-Arduino-&-Computer-Vision)#p5js--computer-vision)
+* [Introduction to Creative Tools + Physical Computing (Max MSP, p5.js, Sensors & Computer Vision ](https://github.com/skyrockprojects/summer-program-2017/wiki/Physical-Computing-Creative-Tools-(Max-MSP-&-p5.js-in-Combination-with-Sensors,-Arduino-&-Computer-Vision))
 
 ---
 
