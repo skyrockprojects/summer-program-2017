@@ -22,13 +22,14 @@
 #### Repos & Files
 * [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/)
 * [Introduction to Creative Tools (Max MSP)](https://github.com/skyrockprojects/intro-music-tech-programming/tree/master/01-intro-max-additive-synthesis)
+* [Introduction to Arduino and experiments with LED](https://github.com/skyrockprojects/arduino-leds-exercises)
 
 #### Wikis
 * [Fundamentals of Programming Using Blockly](https://github.com/skyrockprojects/summer-program-2017/wiki/Fundamentals-of-Programming-Using-Blockly)
 * [Introduction to Javascript](https://github.com/skyrockprojects/javascript-intro/wiki)
 * [Introduction to p5.js](https://github.com/skyrockprojects/p5js-intro/wiki/Introduction-to-p5.js)    
-* [Introduction to Arduino](https://github.com/skyrockprojects/summer-program-2017/wiki/Introduction-of-Arduino)
-* [Introduction to OpenCV & Application for Face detection and Object tracking](https://github.com/skyrockprojects/summer-program-2017/wiki/OpenCV-FaceTracker)
+* [Introduction to Arduino](https://github.com/skyrockprojects/summer-program-2017/wiki/Introduction-to-Arduino)
+* [Introduction to Creative Tools + Physical Computing (Max MSP, p5.js, Sensors & Computer Vision ](https://github.com/skyrockprojects/summer-program-2017/wiki/Physical-Computing-Creative-Tools-(Max-MSP-&-p5.js-in-Combination-with-Sensors,-Arduino-&-Computer-Vision))
 
 ---
 
