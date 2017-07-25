@@ -123,5 +123,22 @@
 
 #### Wikis
 
-
+### Week 5 Skyrock.mini Summer Program
+* Day 1 Blockly and simple p5.js (Tuesday, August 1st)
+   * Opening Talk & Immersion: First Experiences with Physical Computing Models & Topics
+   * Intro to Blockly: Building Blocks of Programming
+   * Intro to JavaScript: Overview, Approaches to Learning & Fundamental Elements with Practice
+* Day 2 Arduino (Wednesday, August 2nd)
+   * Introduction to Arduino, using push button and LED's.  Learn how to program the Arduino IDE
+   * Add sensors to the Arduino board and make simple systems.
+* Day 3 3D Printing and Bare conductive (Thursday, August 3rd)
+   * Introduce students to slic3r and set up their heads for printing.
+   * Programming Touch Board & Connecting to OSC (e.g. get programs communicating to each other!)
+   * Programming Creative Tools for Data Interaction (e.g. controlling LEDS from Touch Board, sonifying and visualizing capacitive and        conductive input, etc.)
+* Day 4 Bare conductive and p5.js (Friday, August 4th)
+   * Make a 3d picture of their heads and body using conductive paint and interact with it.
+   
+* Day 5 Student Projects (Saturday, August 5th)
+   * We will finish bare conductive painted heads.  We can extend this by linking to p5.js. 
+   
 
