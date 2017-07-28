@@ -2,10 +2,10 @@ var work0 = "/staticV2/index.html"
 var work1 = "/FaceTrackingV4.1/index.html"
 var work2 = "/FaceTrackingV4.2VidAlphaMask/index.html"
 var work3 = "/FaceTrackingV4.3Bond/index.html"
-var work4 = "/screenFillShapesTanRotate/index.html"
-var work5 = "/screenFillShapesTanRotate2/index.html"
-var work6 = "/screenFillShapesTanRotate3/index.html"
-var work7 = "/OpticalFlowV3ElemDetect/index.html"
+var work4 = "/FaceTrackingV4.2VidAlphaMaskV3/index.html"
+var work5 = "/FaceTrackingV4.3BondV2/index.html"
+var work6 = "/FaceTrackingV4.2VidAlphaMaskV2/index.html"
+var work7 = "/FaceTrackingV3.1/index.html"
 var works = [work0, work1, work2, work3, work4, work5, work6, work7];
 
 var frame0, frame1, frame2, frame3;

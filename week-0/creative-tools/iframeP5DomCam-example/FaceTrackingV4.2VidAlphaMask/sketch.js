@@ -18,8 +18,9 @@ function setup() {
   
   colorMode(HSB);
   
-  tracker = new clm.tracker();
+  tracker = new clm.tracker({searchWindow : 13, scoreThreshold : 0.3});
   tracker.init(pModel);
+  tracker.setResponseMode("cycle", "lbp");
   tracker.start(cap.elt);
   noStroke();
 
@@ -27,8 +28,6 @@ function setup() {
 
 function draw() {
   
-  //filter(THRESHOLD, 1);
-  //background(51);
   cap.loadPixels();
   var positions = tracker.getCurrentPosition();
   if(positions.length > 0) {  
@@ -50,10 +49,7 @@ function draw() {
             g = 0;
             b = 0;
           }
-          //var adjustbrightness = 255*(maxdist-d)/maxdist;
-          //r += adjustbrightness;
-          // Constrain RGB to make sure they are within 0-255 color range
-          //r = constrain(r, 0, 255);
+
           // Make a new color and set pixel in the window
           //color c = color(r, g, b);
           var pixloc = (y*width + x)*4;

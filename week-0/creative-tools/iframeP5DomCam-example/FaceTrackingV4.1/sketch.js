@@ -14,8 +14,9 @@ function setup() {
   
   colorMode(HSB);
   
-  tracker = new clm.tracker();
+  tracker = new clm.tracker({searchWindow : 13, scoreThreshold : 0.3});
   tracker.init(pModel);
+  tracker.setResponseMode("cycle", "lbp");
   tracker.start(cap.elt);
   noStroke();
   loadPixels();  
