@@ -123,11 +123,13 @@
 
 #### Wikis
 
+---
+
 ### Week 5 Skyrock.mini Summer Program
 * Day 1 Blockly and simple p5.js (Tuesday, August 1st)
    * Opening Talk & Immersion: First Experiences with Physical Computing Models & Topics
    * Intro to Blockly: Building Blocks of Programming
-   * Intro to JavaScript: Overview, Approaches to Learning & Fundamental Elements with Practice
+   * P5.js: Creative Coding, Libraries & Learning by Modifying, Combining & Crediting the Work of Others
 * Day 2 Arduino (Wednesday, August 2nd)
    * Introduction to Arduino, using push button and LED's.  Learn how to program the Arduino IDE
    * Add sensors to the Arduino board and make simple systems.
