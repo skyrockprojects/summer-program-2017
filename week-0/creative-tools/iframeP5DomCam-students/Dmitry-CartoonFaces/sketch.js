@@ -8,7 +8,7 @@ var bAve;
 var gAve;
 var aAve;
 var index = 0;
-var w = 320, h = 202;
+var w = 360, h = 202;
 var n =0;
 var xOff = 0;
 
