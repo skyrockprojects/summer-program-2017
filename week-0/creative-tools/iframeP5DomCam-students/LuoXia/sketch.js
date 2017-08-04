@@ -4,7 +4,8 @@ var w = 360;
 var h = 202;
 var cap;
 var tracker;
-var increment = 0
+var increment = 0;
+var xOff = 0;
 
 function setup() {
   createCanvas(w, h);
@@ -56,6 +57,16 @@ function draw() {
        }else{
         increment += 0;
        }
-  
+   
+  for (var i = 0; i < w; i+=50) {
+      
+      xOff = xOff + 0.001;
+      var x = random(w);
+      var y = random(h);
+      //var xw = random(10);
+      var c = random(4);
+      fill(c+220, c+200);
+      rect(i+i*c, x+c, c, c);
+    } 
   
 }
