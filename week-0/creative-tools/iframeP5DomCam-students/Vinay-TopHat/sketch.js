@@ -1,7 +1,8 @@
 // https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-2
 var cap;
 var tracker
-var w = 640, h = 480;
+var w = 360, h = 202;
+var xOff = 0;
 
 function setup() {
   cap = createCapture(VIDEO);
@@ -46,6 +47,15 @@ function draw() {
   if(positions.length > 50){
       drawSunGlasses(positions[19],positions[22],positions[18],positions[15],positions[47]);
   }
+  for (var i = 0; i < w; i+=50) {
+      xOff = xOff + 0.001;
+      var x = random(w);
+      var y = random(h);
+      //var xw = random(10);
+      var c = random(4);
+      fill(c+80, c+20);
+      rect(i+i*c, x+c, c, c);
+    } 
 }
 
 function drawSunGlasses(p1,p2,p3,p4,p5){
