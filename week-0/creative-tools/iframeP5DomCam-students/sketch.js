@@ -4,7 +4,9 @@ var work2 = "/Amy-project/index.html"
 var work3 = "/Rubin/index.html"
 var work4 = "/Dmitry-CartoonFaces/index.html"
 var work5 = "/LuoXia/index.html"
-var works = [work0, work1, work2, work3, work4, work5];
+var work6 = "/Vinay-TopHat/index.html"
+var work7 = "/FaceTrackingV4.1/index.html"
+var works = [work0, work1, work2, work3, work4, work5, work6, work7];
 
 var frame0, frame1, frame2, frame3;
 var frames = [frame0, frame1, frame2, frame3];
