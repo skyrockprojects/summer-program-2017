@@ -108,8 +108,9 @@ function draw() {
       //strokeWeight(2);
       background(0, 10, 0); // no flicker if drawn here
       flow.flow.zones.forEach((zone) => {
+        var pixVals = ((zone.x*windowWidth)+zone.y)*4; //SEEMS CONFUSING AT FIRST, but each pixel has 4 values (RGBA)
         strokeWeight((zone.u+zone.v)*0.2);
-        stroke(0,191,255);
+        stroke(cap.pixels[pixVals], cap.pixels[pixVals+1], cap.pixels[pixVals+2]);
         line(zone.x, zone.y, zone.x + zone.u, zone.y + zone.v);
         if (zone.x + zone.u > zone.x+thresh || zone.x + zone.u < zone.x-thresh ||
           zone.y + zone.v > zone.y+thresh || zone.y + zone.v < zone.y-thresh) {
