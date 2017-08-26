@@ -171,14 +171,16 @@ function Vegan(x, y) {
   }
 
   this.display = function() {
-    strokeWeight(this.r*0.4)
-    stroke(255,191,0, 80)
-    fill(180, 127, 0, 250);
+    var pixVals = (Math.trunc((this.position.y*windowWidth)+this.position.x))*4;
+    //strokeWeight(this.r*0.4)
+    //stroke(cap.pixels[pixVals], cap.pixels[pixVals+1], cap.pixels[pixVals+2], 80); 
     push();
     translate(this.position.x, this.position.y);
+    fill(180, 127, 0, 250);
     ellipse(0, 0, this.r, this.r); //TEACHING: place random(#) for ellipse to show how draw works
+    fill(cap.pixels[pixVals], cap.pixels[pixVals+1], cap.pixels[pixVals+2], 80);        
+    rect(0, 0, this.r, this.r);
     pop();
-    noStroke();
   }
 
   this.drawShape = function(target) {

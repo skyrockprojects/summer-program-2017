@@ -170,12 +170,16 @@ this.flow = function() {
   }
 
   this.display = function() {
-    strokeWeight(this.r*0.4)
-    stroke(100,0,255, 80)
-    fill(230, 10, 50, 250);
+    var pixVals = (Math.trunc((this.position.y*windowWidth)+this.position.x))*4;
+    //strokeWeight(this.r*0.4)
+    //stroke(cap.pixels[pixVals], cap.pixels[pixVals+1], cap.pixels[pixVals+2], 80); 
+    
     push();
     translate(this.position.x, this.position.y);
+    fill(230, 10, 50, 250);
     ellipse(0, 0, this.r, this.r);
+    fill(cap.pixels[pixVals], cap.pixels[pixVals+1], cap.pixels[pixVals+2], 80);        
+    rect(0, 0, this.r, this.r);
     pop();
     noStroke();
   }
