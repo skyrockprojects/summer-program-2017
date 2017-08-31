@@ -57,7 +57,6 @@ function setup() {
   cap = createCapture(VIDEO);
   cap.size(windowWidth, windowHeight);
   cap.hide();
-  rectMode(CENTER);
   //cap.parent("video");
   //smooth();
   //background(25);
@@ -110,11 +109,9 @@ function draw() {
       background(0, 10, 0); // no flicker if drawn here
       flow.flow.zones.forEach((zone) => {
         var pixVals = ((zone.y*windowWidth)+zone.x)*4; //SEEMS CONFUSING AT FIRST, but each pixel has 4 values (RGBA)
-        //strokeWeight((zone.u+zone.v)*0.1);
-        //stroke(cap.pixels[pixVals+2], cap.pixels[pixVals], cap.pixels[pixVals+1]);
-        fill(cap.pixels[pixVals], cap.pixels[pixVals+1], cap.pixels[pixVals+2]);
-        rect(zone.x, zone.y, zone.u, zone.v);
-        
+        strokeWeight((zone.u+zone.v)*0.2);
+        stroke(cap.pixels[pixVals], cap.pixels[pixVals+1], cap.pixels[pixVals+2]);
+        line(zone.x, zone.y, zone.x + zone.u, zone.y + zone.v);
         if (zone.x + zone.u > zone.x+thresh || zone.x + zone.u < zone.x-thresh ||
           zone.y + zone.v > zone.y+thresh || zone.y + zone.v < zone.y-thresh) {
           //console.log("zone.x= " + zone.x + " + zone.u= " +zone.u + " zone.y= " + zone.y + " + zone.v= " +zone.v);
